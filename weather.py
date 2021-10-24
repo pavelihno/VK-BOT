@@ -113,7 +113,7 @@ def get_pressure(info): #давление
     return int(info["main"]["pressure"] * 100 / 133)
 
 def get_weather_icon_url(info): #ссылки на иконку погоды
-    return "http://openweathermap.org/img/w/"+info["weather"][0]["icon"]+".png"
+    return OPEN_WEATHER_ICON + info["weather"][0]["icon"]+".png"
 
 def create_weather_current_png(): #перевод информации о текущей погоде из текста на картинку
   if (get_weather_current()[1]):

@@ -1,5 +1,6 @@
 OPEN_WEATHER_CURRENT = "http://api.openweathermap.org/data/2.5/weather?q=moscow&appid={}&lang=ru&units=metric"
 OPEN_WEATHER_5DAYS = "https://api.openweathermap.org/data/2.5/forecast?q=moscow&appid={}&lang=ru&units=metric"
+OPEN_WEATHER_ICON = "http://openweathermap.org/img/w/"
 
 GROUP_NAME_PATTERN = r"И[А-Я]БО-\d{2}-\d{2}"
 GROUP_NAME_DAY_WEEK_PATTERN = r"\w+ И[А-Я]БО-\d{2}-\d{2}"
